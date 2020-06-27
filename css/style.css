@@ -1,0 +1,116 @@
+body{
+
+}
+header{
+
+}
+
+nav{
+	
+flex-basis: 80%;
+	
+max-width: 80%;
+	
+/* background: burlywood; */
+	
+display: flex;
+	
+justify-content: flex-end;
+}
+
+nav ul{
+
+display: flex;
+
+display: block;
+}
+nav ul li{
+
+list-style-type: none;
+}
+nav ul li a{
+	
+text-decoration: none;
+	
+text-transform: capitalize;
+	
+color: black;
+}
+.logo img{
+
+}
+.logo{
+
+flex-basis: 20%;
+
+max-width: 20%;
+
+/* background: burlywood; */
+
+    align-items: center
+}
+.container{
+
+width: 1000px;
+
+margin: auto;
+
+display: flex;
+
+flex-wrap: wrap;
+
+/* text-align: center; */
+}
+img{
+
+}
+section{
+     padding-top: 300px;
+     padding-bottom: 300px;
+    width: 1000px;
+    margin: auto;
+
+}
+.sec_01{
+background: url(../images/men.jpg);
+   background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+.sec_02{
+	background: url(../images/women.jpg);
+	     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+.sec_03{
+	background: url(../images/kids.jpg);
+	   background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+.sec_04{
+	background: url(../images/bottle.jpg);
+	   background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+.sec_05{
+	background: url(../images/grocery.jpg);
+	   background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+.sec_06{
+	background: url(../images/legends.jpg);
+	   background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+h1{
+    text-align: center;
+    background: #ff214f8a;
+    font-size: 45px;
+    margin: auto;
+    max-width: 430px;
+}
